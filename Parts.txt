@@ -1,5 +1,5 @@
 Part     Value
-C1       10 uF Tantalum Capacitor
+*C1       10 uF Tantalum Capacitor, 470 uF Electrolytic, 100 nF Ceramic (and replicate on ISA B29)
 C2       .1 uF Ceramic Capacitor
 C3       .1 uF Ceramic Capacitor
 C4       .1 uF Ceramic Capacitor
@@ -15,11 +15,11 @@ C13      680 pF Ceramic Capacitor
 C14      680 pF Ceramic Capacitor
 C15      .22 uF Ceramic Capacitor
 C16      .22 uF Ceramic Capacitor
-C17      100 uF Electrolytic Capacitor
+*C17      470 uF Electrolytic Capacitor
 C18      100 uF Electrolytic Capacitor
 C19      100 uF Electrolytic Capacitor
-C20      100 uF Electrolytic Capacitor
-C21      100 uF Electrolytic Capacitor
+*C20      470 uF Electrolytic Capacitor
+*C21      470uF Electrolytic Capacitor
 C22      100 uF Electrolytic Capacitor
 C23      .15 uF Ceramic Capacitor
 C24      .15 uF Ceramic Capacitor
@@ -35,14 +35,14 @@ IC7      SAA1099
 IC8      SAA1099
 IC9      TEA2025
 JP1      6x2 pin header
-R1       1k 1/4 W
+*R1       4.7k 1/4 W (1K? missing notes)
 R2       10k 1/4 W
 R3       10k 1/4 W
 R4       1.5k 1/4 W
 R5       1.5k 1/4 W
 R6       10k 1/4 W
 R7       10k 1/4 W
-R8       10K dual audio taper potentiometer
+*R8       50K dual audio taper potentiometer
 RN1      8 pin 4.7K bussed SIP resistor network
 X1       3.5mm stereo audio jack
 Bracket  Keystone 9202 EISA/ISA PCB Bracket
